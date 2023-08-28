@@ -16,10 +16,19 @@
     <Filter Include="头文件\RValue">
       <UniqueIdentifier>{81a14231-5d29-4cc7-aecb-197bfc5e7de4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\CRC">
+      <UniqueIdentifier>{c1ff33b8-105b-46eb-a9a5-1894d616aebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CRC">
+      <UniqueIdentifier>{e3143732-8903-4838-bf8b-2a9ec1c72dd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CStudy.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC\crc.cpp">
+      <Filter>源文件\CRC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="HammingCode.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC\crc.h">
+      <Filter>头文件\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC\crc_example.h">
+      <Filter>头文件\CRC</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -139,9 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CRC\crc.cpp" />
     <ClCompile Include="CStudy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CRC\crc.h" />
+    <ClInclude Include="CRC\crc_example.h" />
     <ClInclude Include="HammingCode.h" />
     <ClInclude Include="RValue.h" />
     <ClInclude Include="RValue\A.h" />

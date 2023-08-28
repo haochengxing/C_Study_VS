@@ -9,7 +9,10 @@
 //#include "RValue/B.h"
 
 
-#include "HammingCode.h"
+//#include "HammingCode.h"
+
+
+#include "CRC/crc_example.h"
 
 int main()
 {
@@ -23,7 +26,11 @@ int main()
     //testB();
 
     //海明码
-    HammingMain();
+    //HammingMain();
+
+
+    //循环冗余校验码
+    crc_main();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
