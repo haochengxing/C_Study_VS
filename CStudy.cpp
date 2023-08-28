@@ -5,8 +5,11 @@
 
 //#include "RValue.h"
 
-#include "RValue/A.h"
-#include "RValue/B.h"
+//#include "RValue/A.h"
+//#include "RValue/B.h"
+
+
+#include "HammingCode.h"
 
 int main()
 {
@@ -16,8 +19,11 @@ int main()
 
 
     //右值引用真的对避免内存拷贝有大作用！自己在实现类的时候，一定要实现右值引用哦！
-    testA();
-    testB();
+    //testA();
+    //testB();
+
+    //海明码
+    HammingMain();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

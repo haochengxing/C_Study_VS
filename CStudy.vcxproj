@@ -142,6 +142,7 @@
     <ClCompile Include="CStudy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HammingCode.h" />
     <ClInclude Include="RValue.h" />
     <ClInclude Include="RValue\A.h" />
     <ClInclude Include="RValue\B.h" />

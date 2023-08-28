@@ -32,5 +32,8 @@
     <ClInclude Include="RValue\B.h">
       <Filter>头文件\RValue</Filter>
     </ClInclude>
+    <ClInclude Include="HammingCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
