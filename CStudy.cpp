@@ -12,7 +12,9 @@
 //#include "HammingCode.h"
 
 
-#include "CRC/crc_example.h"
+//#include "CRC/crc_example.h"
+
+#include "backtrack.h"
 
 int main()
 {
@@ -30,7 +32,10 @@ int main()
 
 
     //循环冗余校验码
-    crc_main();
+    //crc_main();
+
+    //回溯
+    test_backtrack();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

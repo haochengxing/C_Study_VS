@@ -50,5 +50,8 @@
     <ClInclude Include="CRC\crc_example.h">
       <Filter>头文件\CRC</Filter>
     </ClInclude>
+    <ClInclude Include="backtrack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
